@@ -9,5 +9,7 @@ namespace InventorySystem.Model
     class Item
     {
         int itemID;
+        string namn;
+        int hp;
     }
 }
