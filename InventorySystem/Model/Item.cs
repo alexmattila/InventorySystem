@@ -8,6 +8,6 @@ namespace InventorySystem.Model
 {
     class Item
     {
-    
+        int itemID;
     }
 }
