@@ -51,7 +51,6 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Equip.cs" />
-    <Compile Include="Model\Item.cs" />
     <Compile Include="Model\ItemMenu.cs" />
     <Compile Include="Model\Items.cs" />
     <Compile Include="Model\Level.cs" />
