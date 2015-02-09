@@ -16,7 +16,7 @@ namespace InventorySystem.Model
         int magic;
         int attack;
         int defence;
-        int evasion;
+        int magicDefence;
 
     }
 }
