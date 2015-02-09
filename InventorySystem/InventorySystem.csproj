@@ -50,10 +50,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\Character.cs" />
+    <Compile Include="Model\Equip.cs" />
     <Compile Include="Model\Item.cs" />
+    <Compile Include="Model\ItemMenu.cs" />
+    <Compile Include="Model\Items.cs" />
     <Compile Include="Model\Level.cs" />
-    <Compile Include="Model\Backpack.cs" />
+    <Compile Include="Model\Main.cs" />
+    <Compile Include="Model\Status.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\CharacterView.cs">

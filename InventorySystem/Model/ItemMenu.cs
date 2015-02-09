@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InventorySystem.Model
 {
-    class Backpack
+    class ItemMenu
     {
 
     }

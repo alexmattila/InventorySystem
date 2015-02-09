@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace InventorySystem.Model
 {
-    class Character
+    class Equip
     {
-        string m_name;
-        int m_exp;
 
     }
 }
