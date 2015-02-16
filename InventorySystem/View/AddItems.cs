@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace InventorySystem
+namespace InventorySystem.View
 {
-    public partial class Form1 : Form
+    public partial class AddItems : Form
     {
-        public Form1()
+        public AddItems()
         {
             InitializeComponent();
-        }
-
-        private void addItemsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
