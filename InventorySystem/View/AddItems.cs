@@ -16,5 +16,9 @@ namespace InventorySystem.View
         {
             InitializeComponent();
         }
+
+        public void initListView()
+        {
+        }
     }
 }
