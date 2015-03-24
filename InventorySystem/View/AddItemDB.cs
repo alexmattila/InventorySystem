@@ -10,21 +10,23 @@ using System.Windows.Forms;
 
 namespace InventorySystem.View
 {
-    public partial class AddItems : Form
+    public partial class AddItemDB : Form
     {
-        public AddItems()
+        public AddItemDB()
         {
             InitializeComponent();
         }
 
-        public void initListView()
+        private void AddItemDB_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'database1DataSet.Items' table. You can move, or remove it, as needed.
+            this.itemsTableAdapter.Fill(this.database1DataSet.Items);
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AddItemDB adb = new AddItemDB();
-            adb.Show();
+            this.itemsTableAdapter.Update(this.database1DataSet.Items);
         }
     }
 }
